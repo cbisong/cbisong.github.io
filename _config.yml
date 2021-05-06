@@ -1,75 +1,69 @@
-# Site settings
-title: Chidera Bisong
-email: chidera.bisong@ecodevkonsult.com
-url: https://cbisong.github.io/
-description: "GIS/ Geospatial Data Analyst"
-keywords: "GIS, Remote Sensing, Geospatial, Data Analyst"
-skills: "GIS - Remote Sensing - Geospatial Data Analysis"
-meta_author: Bisong Chidera
+# Site setings
+name: 'Chidera Bisong'
+description: 'GIS - Remote Sensing - Geospatial Data Analysis'
+meta_description: 'GIS, remote sensing, geospatial data analysis.'
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: 'profile.png'
+  greetings: "Hi there! My name is Chidera Bisong. I am a GIS/ Geospatial Data Analyst at Integrated Ecodev Systems Konsult (IESK). I am currently undertaking a Masters Degree in Geographic Information Systems and Remote Sensing at Charles Sturt University in Australia."
+favicon: ''
+baseurl: 
+production_url: 
+disqus: ''
+mailchimp_url: ''
+# Add your GA Tracking Id
+ga_analytics: 
 
-# Google webmaster tools
-google_verify:
+# Contact form setings
+email: chidera.bisong@ecodevkonsult.com 
+contact_page_description: ""
+thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Social links
+# twitter: ''
+# facebook: ''
+github: 'cbisong'
+# codepen: ''
+# dribbble: ''
+# medium: ''
+# instagram: ''
+# pinterest: ''
+linkedin: 'chiderabisong'
+# producthunt: ''
+# quora: ''
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  # - text: Style Guide
+  #   url: /style-guide
+  - text: Contact Me
+    url: /contact
+  # - text: Search
+  #   url: /search
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-# disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Chidera Bisong
-  location: Location
-  social: Around the Web
-  credits: On GIS
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/chiderabisong/
-  - title: twitter
-    url: https://twitter.com/osere
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/cbisong
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Winnipeg, Manitoba
-  - line: Canada
-
-# Credits content
-# credits: '“The early days of GIS were very lonely. No-one knew what it meant.” ~ Roger Tomlinson, Father of GIS'
-credits: '“The application of GIS is limited only by the imagination of those who use it”. ~ Jack Dangermond, Esri'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
-
-plugins: 
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-redirect-from
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed

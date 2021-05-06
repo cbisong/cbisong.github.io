@@ -1,86 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chidera Bisong</title>
+    <description>GIS - Remote Sensing - Geospatial Data Analysis</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 May 2021 00:54:42 -0600</pubDate>
+    <lastBuildDate>Thu, 06 May 2021 00:54:42 -0600</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>The Population of Australia in 2011</title>
+        <description>&lt;p&gt;A map showing the population of Australia in 2011 and analyzing the 10-Year Interval Population Comparison from 1981-2011.&lt;/p&gt;
 
-<feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <link href="https://cbisong.github.io//feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cbisong.github.io//" rel="alternate" type="text/html" />
-  <updated>2021-03-25T11:17:18-06:00</updated>
-  <id>https://cbisong.github.io//</id>
+&lt;!--more--&gt;
 
-  
-    <title type="html">Chidera Bisong</title>
-  
-
-  
-    <subtitle>GIS/ Geospatial Data Analyst</subtitle>
-  
-
-  
-
-  
-  
-    <entry>
-      <title type="html">Regional Health Authorities In Manitoba</title>
-      <link href="https://cbisong.github.io//" rel="alternate" type="text/html" title="Regional Health Authorities In Manitoba" />
-      <published>2021-03-25T00:00:00-06:00</published>
-      <updated>2021-03-25T00:00:00-06:00</updated>
-      <id>https://cbisong.github.io//regional-health-authorities-in-manitoba</id>
-      <content type="html" xml:base="https://cbisong.github.io//"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/australia_population_2011.jpg#wide&quot; alt=&quot;Australia Population for 2011&quot; /&gt;
+    
+        &lt;figcaption class=&quot;caption-text&quot;&gt;Australia Population for 2011&lt;/figcaption&gt; 
+    
+&lt;/figure&gt;
+</description>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 -0600</pubDate>
+        <link>/population-of-australia-2011</link>
+        <guid isPermaLink="true">/population-of-australia-2011</guid>
+        
+        <category>GIS</category>
         
         
-      </author>
+      </item>
+    
+      <item>
+        <title>Regions and Rural Reserves, the city of West Kelowna, BC</title>
+        <description>&lt;p&gt;This is a map of the city of West Kelowna in British Columbia showing the various neighbourhoods in the region, the rural reserves and the proposed greenbelt areas. The geospatial data was obtained from the city website &lt;a href=&quot;https://www.westkelownacity.ca/en/building-business-and-development/maps-and-gis1.aspx&quot; rel=&quot;external nofollow&quot;&gt;https://www.westkelownacity.ca/en/building-business-and-development/maps-and-gis1.aspx&lt;/a&gt;. Data for the neighbourhoods were updated in February 2021 while data for the greenbelt and rural areas were updated in April 2012.&lt;/p&gt;
 
-      
+&lt;!--more--&gt;
 
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Covid Testing Sites In Manitoba</title>
-      <link href="https://cbisong.github.io//" rel="alternate" type="text/html" title="Covid Testing Sites In Manitoba" />
-      <published>2021-03-25T00:00:00-06:00</published>
-      <updated>2021-03-25T00:00:00-06:00</updated>
-      <id>https://cbisong.github.io//covid-testing-sites-in-manitoba</id>
-      <content type="html" xml:base="https://cbisong.github.io//"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/city_of_west_kelowna.png#wide&quot; alt=&quot;Districts in Manitoba and COVID-19 Testing Sites&quot; /&gt;
+    
+        &lt;figcaption class=&quot;caption-text&quot;&gt;Districts in Manitoba and COVID-19 Testing Sites&lt;/figcaption&gt; 
+    
+&lt;/figure&gt;
+</description>
+        <pubDate>Sat, 27 Mar 2021 00:00:00 -0600</pubDate>
+        <link>/regions-west-kelowna</link>
+        <guid isPermaLink="true">/regions-west-kelowna</guid>
+        
+        <category>GIS</category>
         
         
-      </author>
+      </item>
+    
+      <item>
+        <title>Districts in Manitoba and COVID-19 Testing Sites</title>
+        <description>&lt;p&gt;The map shows districts in Manitoba and the distribution of COVID-19 testing sites. The data for this geospatial map was retrieved on March 11, 2021.&lt;/p&gt;
 
-      
+&lt;!--more--&gt;
 
-      
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/districts_manitoba.png#wide&quot; alt=&quot;Districts in Manitoba and COVID-19 Testing Sites&quot; /&gt;
+    
+        &lt;figcaption class=&quot;caption-text&quot;&gt;Districts in Manitoba and COVID-19 Testing Sites&lt;/figcaption&gt; 
+    
+&lt;/figure&gt;
+</description>
+        <pubDate>Thu, 11 Mar 2021 00:00:00 -0700</pubDate>
+        <link>/districts-in-manitoba-covid</link>
+        <guid isPermaLink="true">/districts-in-manitoba-covid</guid>
+        
+        <category>GIS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Regional Health Authorities in Manitoba and COVID-19 Testing Sites</title>
+        <description>&lt;p&gt;The map shows the locations of COVID-19 testing sites in Manitoba across the various regional health authorities. The data for this geospatial map was retrieved on March 1, 2021.&lt;/p&gt;
 
-      
-        <summary type="html"></summary>
-      
+&lt;!--more--&gt;
 
-      
-      
-    </entry>
-  
-</feed>
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/health_authorities_manitoba.png#wide&quot; alt=&quot;Regional Health Authorities in Manitoba and COVID-19 Testing Sites&quot; /&gt;
+    
+        &lt;figcaption class=&quot;caption-text&quot;&gt;Regional Health Authorities in Manitoba and COVID-19 Testing Sites&lt;/figcaption&gt; 
+    
+&lt;/figure&gt;
+</description>
+        <pubDate>Mon, 01 Mar 2021 00:00:00 -0700</pubDate>
+        <link>/regional-health-authorities-covid19</link>
+        <guid isPermaLink="true">/regional-health-authorities-covid19</guid>
+        
+        <category>GIS</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
